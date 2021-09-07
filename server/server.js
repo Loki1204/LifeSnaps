@@ -22,7 +22,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to LifeSnaps API");
+  res.send("Welcome to LifeSnaps");
 });
 const PORT = process.env.PORT || 5000;
 
